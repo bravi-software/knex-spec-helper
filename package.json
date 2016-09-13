@@ -1,6 +1,6 @@
 {
   "name": "knex-spec-helper",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Helper functions for tests with knex.",
   "main": "spec-helper.js",
   "scripts": {
