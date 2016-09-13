@@ -1,0 +1,27 @@
+{
+  "name": "knex-spec-helper",
+  "version": "0.0.0",
+  "description": "Helper functions for tests with knex.",
+  "main": "spec-helper.js",
+  "scripts": {
+    "lint": "eslint src/ spec/"
+  },
+  "author": "Bravi (http://www.bravi.com.br)",
+  "contributors": [
+    "Max Claus Nunes (https://github.com/maxcnunes)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "knex",
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bravi-software/knex-spec-helper"
+  },
+  "bugs": "https://github.com/bravi-software/knex-spec-helper/issues",
+  "devDependencies": {
+    "eslint": "^1.5.0",
+    "eslint-config-airbnb": "0.0.8"
+  }
+}
