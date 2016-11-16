@@ -43,7 +43,8 @@ function truncateAllTables () {
   return knexConnection
     .raw(truncateTablesSQL)
     .then(function (sqlQuery) {
-      var query = sqlQuery.rows.map(function (sql) { return sql.trucate_table_cmd; }).join('');
+      var rows = sqlQuery.rows || sqlQuery[0];
+      var query = rows.map(function (sql) { return sql.trucate_table_cmd; }).join('');
       return knexConnection.raw(query);
     });
 }
